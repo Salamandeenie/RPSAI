@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progra</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .button-container {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .game-button {
+      width: 100px;
+      height: 50px;
+      background-color: #ddd;
+      font-size: 1.2em;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border: none;
+    }
+    .output-box {
+      width: 320px;
+      height: 50px;
+      background-color: #f0f0f0;
+      font-size: 1.2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ccc;
+      margin-top: 20px;
+    }
+    .accuracy-box {
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="button-container">
+    <button class="game-button" onclick="playerInput('R')">Rock</button>
+    <button class="game-button" onclick="playerInput('P')">Paper</button>
+    <button class="game-button" onclick="playerInput('S')">Scissors</button>
+  </div>
+
+  <div id="output" class="output-box">
+    Foernt Shwaiben
+  </div>
+
+  <div id="accuracy" class="accuracy-box">
+    Bot Accuracy: 0%
+  </div>
+
+  <div style="position: fixed; bottom: 10px; left: 10px; font-size: 1.2em; color: #333;">
+    Salamandeenie &copy;2024, Under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA License</a>
+  </div>
+
+  <script src="../Project MouseClick/JS/class.js"></script>
+  <script src="../Project MouseClick/JS/variable.js"></script>
+  <script src="../Project MouseClick/JS/function.js"></script>
+  <script src="../Project MouseClick/JS/init.js"></script>
+  <script>
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+#clicker {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+#clicker:hover {
+    background-color: white;
+}
+#clicker:click {
+    background-color: yellow;
+    width: 75px;
+    height: 75px;
+}
